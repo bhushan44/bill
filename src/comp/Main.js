@@ -38,7 +38,7 @@ export default function Main() {
           : friend
       )
     );
-    setselectedfriend(null);
+    // setselectedfriend(null);
   }
 
   function hanndleselection(friend) {

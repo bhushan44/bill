@@ -22,7 +22,7 @@ export default function Splitbill({
   function onform(e) {
     e.preventDefault();
     onhandlesplit(select === "user" ? usrerfriend : -userexp);
-    // selectedfriend(null);
+    // setselectedfriend(null);
   }
   let usrerfriend = bill ? bill - userexp : "";
   return (
